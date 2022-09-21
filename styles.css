@@ -8,13 +8,12 @@ body {
 .container {
     position: fixed;
     background-color: white;
-    width: 100%;
+    width: 100vw;
     padding-top: 10px;
 }
 
 .topnav {
     text-decoration: none;
-    padding: 10px;
     color: white;
     float: right;
     font-size: large;
@@ -102,8 +101,7 @@ h2 {
     font-size: 25px;
 }
 .paragraph-2 {
-    margin: 0 200px 0 200px;
-    opacity: 50%;
+    color: #808080;
 }
 
 .image-3 {
@@ -120,10 +118,6 @@ h3 {
 
 .behavior {
     margin: 10px;
-}
-
-.material {
-    width: 33vw;
 }
 
 .maintainence {
@@ -177,7 +171,7 @@ h3 {
 .friendly {
     margin-top: 0;
     padding-left: 450px;
-    opacity: 50%;
+    color: #808080;
 }
 
 .main {
@@ -225,38 +219,98 @@ h3 {
     background-color: #F9F9FF;
 }
 
-.div-1:hover {
+.feature-boxes:hover {
     background-color: #40b8ff;
     cursor: pointer;
+    color: white;
+    box-shadow: 2px 4px 20px #888888;
+}
+
+
+.price-tag {
+    background-color: #F9F9FF;
+    box-sizing: border-box;
+}
+
+.price-content {
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.price-para {
+    color: #808080;
+}
+
+.top-left {
+    display: inline-block;
+}
+
+.top-right {
+    float: right;
+}
+
+.price-cover {
+    color: gray;
+}
+.purchase-data {
+    width: 30%;
+    margin-left: 100px;
+    background-color: white;
+}
+.purchase-module {
+    border-bottom: 2px solid #F9F9FF;
+    padding: 50px 20px;
+}
+
+.bottom-sec {
+    border-bottom: 2px solid #F9F9FF;
+    padding: 50px 20px;     
+    line-height: 30px;
+}
+
+.purchase-para {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.purchase-list {
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.purchase-button {
+    text-align: center;
+    margin: 10px;
+}
+
+.button-end {
+    padding: 20px 70px;
+    margin-right: 75px;
+    background-color: black;
     color: white;
 }
 
-.div-2:hover {
-    background-color: #40b8ff;
-    cursor: pointer;
-    color: white;
+.standard {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
 
-.div-3:hover {
-    background-color: #40b8ff;
+.price-money {
+    margin-top: 0;
+} 
+
+.purchase-data:hover {
     cursor: pointer;
-    color: white;
 }
 
-.div-4:hover {
-    background-color: #40b8ff;
-    cursor: pointer;
+
+.purchase-data:hover .price-cover {
+    background-color: #409ce1 !important;
+    box-shadow: 2px 4px 20px #888888;
     color: white;
+    
 }
 
-.div-5:hover {
-    background-color: #40b8ff;
-    cursor: pointer;
-    color: white;
-}
 
-.div-6:hover {
-    background-color: #40b8ff;
-    cursor: pointer;
-    color: white;
-}
